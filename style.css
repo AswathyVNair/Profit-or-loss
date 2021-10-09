@@ -1,8 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@500;800&display=swap");
 body {
   text-align: center;
+  font-family: "Georama", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+:root {
+  --primary-color: (#be185d);
+  --secondary-color: #111827;
 }
 
 label {
   display: block;
   padding: 1rem;
+  font-size: larger;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+input {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 20%;
+  border-color: rgb(223, 83, 106);
+  border-width: medium;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: large;
+}
+
+.container {
+  color: rgb(223, 83, 106);
+}
+button {
+  padding: 1rem;
+  background-color: rgb(223, 83, 106);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: larger;
+  color: var(--secondary-color);
+}
+
+#output-box {
+  color: rgb(223, 83, 106);
+  padding: 1rem;
+  font-size: larger;
 }
