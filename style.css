@@ -4,6 +4,7 @@ body {
   font-family: "Georama", sans-serif;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  margin: 0;
 }
 :root {
   --primary-color: (#be185d);
@@ -47,4 +48,35 @@ button {
   color: rgb(223, 83, 106);
   padding: 1rem;
   font-size: larger;
+}
+
+.footer {
+  background-color: rgb(223, 83, 106);
+  margin-top: 1rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  font-size: larger;
+}
+.footer .link {
+  color: white;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
