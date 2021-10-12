@@ -26,7 +26,24 @@ function submitHandler() {
   var ip = Number(initialPrice.value);
   var qty = Number(stockQuantity.value);
   var curr = Number(currentPrice.value);
-  calculateProfitAndLoss(ip, qty, curr);
+  if (
+    initialPrice.value &&
+    stockQuantity.value &&
+    currentPrice.value > 0 &&
+    initialPrice.value &&
+    stockQuantity.value > 0 &&
+    initialPrice.value &&
+    currentPrice.value > 0 &&
+    stockQuantity.value &&
+    currentPrice.value > 0 &&
+    initialPrice.value > 0 &&
+    stockQuantity.value > 0 &&
+    currentPrice.value > 0
+  ) {
+    calculateProfitAndLoss(ip, qty, curr);
+  } else {
+    showOutput("Enter positive values in the fields given");
+  }
 }
 
 function showOutput(message) {
