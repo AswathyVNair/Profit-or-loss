@@ -24,12 +24,12 @@ input {
   margin-top: 2rem;
   padding: 1rem;
   width: 20%;
-  border-color: rgb(223, 83, 106);
   border-width: medium;
   border-radius: 0.5rem;
   background-color: var(--secondary-color);
   color: white;
   font-size: large;
+  border: solid rgb(223, 83, 106);
 }
 
 .container {
@@ -42,6 +42,7 @@ button {
   font-weight: bold;
   font-size: larger;
   color: var(--secondary-color);
+  border: none;
 }
 
 #output-box {
